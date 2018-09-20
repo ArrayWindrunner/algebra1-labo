@@ -25,7 +25,7 @@ unidades n = rem (abs n) 10
 -- una versión recursiva
 unidades_r n | n <= (-10) = (unidades_r . abs) n
              | n >= (10) = unidades_r(n-10)
-             | otherwise = n
+             | otherwise = abs n
 
 
 sumaUnidades3 x1 x2 x3 = (unidades x1) + (unidades x2) + (unidades x3)

@@ -123,4 +123,5 @@ doblefact_r n | n < 0  = error "Fuera de dominio"-- ∉N
               | esPar n = n * doblefact_r (n-2)
               | esImpar n = n * doblefact_r (n-2)
 
-          
+-- Por diversión, una versión secuencial usando high order functions
+-- doblefact_f n = product (filter (\x -> esPar x == esPar n) [1..n])
