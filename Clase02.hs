@@ -1,4 +1,4 @@
-module Clase02 (signo, valorAbsoluto, esPar, esImpar, esMultiploDe, norma2D) where 
+module Clase02 (signo, valorAbsoluto, esPar, esImpar, esMultiploDe, norma2D, max2) where 
 import Clase01 (f, doble)
 
 --------------------------------------------

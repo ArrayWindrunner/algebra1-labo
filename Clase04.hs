@@ -1,4 +1,4 @@
-module Clase04 ( esPar_r2, esPar_z ) where
+module Clase04 ( esPar_r2, esPar_z, factorial ) where
 import Clase02 (esPar, esImpar)
 
 -- Ejemplo pre-ejercicios
