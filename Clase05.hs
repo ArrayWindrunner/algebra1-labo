@@ -1,4 +1,4 @@
-module Clase05 ( eAprox ) where
+module Clase05 ( esPrimo ) where
 import Clase02 (signo, esImpar)
 import Clase04 (factorial)
 
